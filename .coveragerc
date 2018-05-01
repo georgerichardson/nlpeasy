@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/nlpeasy
+   */site-packages/nlpeasy
+
+[run]
+branch = true
+source =
+    nlpeasy
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
